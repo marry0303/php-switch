@@ -1,0 +1,9 @@
+<?php
+$counts=0;
+$i=1000;
+while(100<$i){
+ $i=$i/2;
+ $counts+=1;
+}
+echo $counts;
+?>
